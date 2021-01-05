@@ -1,0 +1,74 @@
+header,
+body {
+    font-family: arial, sans-serif;
+}
+
+#header1 {
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-around;
+}
+
+#conteneur {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    justify-content: flex-end;
+    margin-bottom: 10%;
+    margin-top: 13%;
+}
+
+#jugement {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    text-size-adjust: 80%;
+}
+
+#textfield {
+    width: 100%;
+}
+
+.click {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    width: 50%;
+}
+
+#boutons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    color: lightgrey;
+    margin: 3px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.FooterGen {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer2 {
+    display: flex;
+    align-items: center;
+}
+
+.footer3 {
+    display: flex;
+    justify-content: flex-end;
+}
