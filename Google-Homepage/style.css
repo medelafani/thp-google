@@ -24,11 +24,12 @@ body {
     display: flex;
     justify-content: center;
     border: 2px solid black;
-    text-size-adjust: 80%;
+    text-size-adjust: 60%;
 }
 
 #textfield {
     width: 100%;
+    border-radius: 7px;
 }
 
 .click {
@@ -36,6 +37,7 @@ body {
     justify-content: center;
     background-color: lightgray;
     width: 50%;
+    border-radius: 5px;
 }
 
 #boutons {
@@ -51,6 +53,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: ghostwhite;
 }
 
 .FooterGen {
